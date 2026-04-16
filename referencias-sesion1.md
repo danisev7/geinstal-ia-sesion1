@@ -913,6 +913,36 @@ Revisa el modelo completo y ejecuta estas verificaciones:
 
 ---
 
+## Cross-app: de Excel a PowerPoint automáticamente (slide 82, opcional)
+
+Tener abiertos a la vez:
+- **Excel**: `ordenes-trabajo-q1-2026.xlsx` (con la pestaña "Análisis" generada en la demo anterior)
+- **PowerPoint**: `plantilla-informe-mensual.pptx`
+
+### Prompt (desde el complemento de PowerPoint)
+
+```
+Tengo abierto un Excel con los datos de órdenes de trabajo del
+departamento de Mantenimiento Q1 2026 y una pestaña "Análisis"
+con gráficos ya generados.
+
+Toma los datos y gráficos del Excel y genera las slides del
+informe mensual en esta presentación. Incluye:
+- Slide de resumen ejecutivo con los KPIs principales
+- Slide con los gráficos de incidencias por cliente y evolución
+  del tiempo de respuesta
+- Slide de rendimiento por técnico
+- Slide de acciones pendientes basadas en las recomendaciones
+
+Mantén el estilo visual de la plantilla (colores verdes Geinstal).
+```
+
+> El cierre perfecto: los mismos datos que han recorrido toda la sesión (Excel → análisis → dashboard → informe) llegan automáticamente a una presentación lista para la reunión de directores. Sin copiar, sin pegar, sin reformatear.
+
+---
+
 ## Deberes post-sesión
 
-*(pendiente de añadir enlace al repositorio)*
+1. **Date de alta en Claude** con la licencia que te facilite Geinstal: [claude.ai](https://claude.ai)
+2. **Material de la sesión** — presentación y prompts de referencia:
+   [github.com/danisev7/geinstal-ia-sesion1](https://github.com/danisev7/geinstal-ia-sesion1)
