@@ -791,35 +791,6 @@ documento y cómo se relacionan entre sí.
 | Claude para PowerPoint | [support.claude.com — PowerPoint](https://support.claude.com/es/articles/13521390-usa-claude-para-powerpoint) |
 | Claude para Excel | [support.claude.com — Excel](https://support.claude.com/es/articles/12650343-usa-claude-para-excel) |
 
-### Demo PowerPoint (slide 80) — Presentación corporativa de Geinstal
-
-Abrir PowerPoint con una presentación nueva. En la primera slide, pegar el logo de Geinstal. Activar el complemento de Claude.
-
-**Prompt:**
-
-```
-En la primera diapositiva te he dejado el logo de Geinstal.
-Quiero que me hagas una presentación corporativa completa de
-la empresa Geinstal en base a la información que hay en su
-web: https://www.geinstal.com/es/
-```
-
-**Después, pegar las fotos** de la carpeta `materiales/fotos/` en la última diapositiva y pedir:
-
-```
-En la última diapositiva te he dejado unas fotos de la empresa.
-Revisalas y colócalas en las slides donde creas que vayan o
-queden mejor respetando sus proporciones originales.
-```
-
-> Fotos disponibles: climatización, electricidad, PCI, control, equipo directivo, CCCB, Mercabarna.
-
-**Prompt adicional — Traducción a italiano:**
-
-```
-Necesito esta presentacion en italiano para visitar a unos clientes potenciales
-```
-
 ### Demo Word (slide 79) — Contrato de mantenimiento con plantilla Geinstal
 
 Abrir `plantilla-word-geinstal.docx` (portada corporativa con logo + barra verde + footer, y a partir de la página 2 header con logo circular sin footer). Activar complemento de Claude para Word.
@@ -941,6 +912,35 @@ Para cada hallazgo, indica la cláusula y propón la corrección.
 > Muestra auditoría global del documento — útil para revisar contratos que llegan de un tercero.
 
 ---
+
+### Demo PowerPoint (slide 80) — Presentación corporativa de Geinstal
+
+Abrir PowerPoint con una presentación nueva. En la primera slide, pegar el logo de Geinstal. Activar el complemento de Claude.
+
+**Prompt:**
+
+```
+En la primera diapositiva te he dejado el logo de Geinstal.
+Quiero que me hagas una presentación corporativa completa de
+la empresa Geinstal en base a la información que hay en su
+web: https://www.geinstal.com/es/
+```
+
+**Después, pegar las fotos** de la carpeta `materiales/fotos/` en la última diapositiva y pedir:
+
+```
+En la última diapositiva te he dejado unas fotos de la empresa.
+Revisalas y colócalas en las slides donde creas que vayan o
+queden mejor respetando sus proporciones originales.
+```
+
+> Fotos disponibles: climatización, electricidad, PCI, control, equipo directivo, CCCB, Mercabarna.
+
+**Prompt adicional — Traducción a italiano:**
+
+```
+Necesito esta presentacion en italiano para visitar a unos clientes potenciales
+```
 
 ### Demo PowerPoint (slide 80) — Informe mensual con plantilla Geinstal
 
