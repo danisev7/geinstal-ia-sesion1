@@ -843,6 +843,12 @@ de equipo, y slide de acciones pendientes para abril.
 Mantén el estilo visual de la plantilla (colores verdes Geinstal).
 ```
 
+**Prompt adicional — Traducción a italiano:**
+
+```
+Necesito esta presentacion en italiano para visitar a unos clientes potenciales
+```
+
 ---
 
 ## Claude para Excel — Modelos financieros avanzados (slide 81)
