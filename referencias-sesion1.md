@@ -814,6 +814,12 @@ queden mejor respetando sus proporciones originales.
 
 > Fotos disponibles: climatización, electricidad, PCI, control, equipo directivo, CCCB, Mercabarna.
 
+**Prompt adicional — Traducción a italiano:**
+
+```
+Necesito esta presentacion en italiano para visitar a unos clientes potenciales
+```
+
 ### Demo PowerPoint (slide 79) — Informe mensual con plantilla Geinstal
 
 Abrir `plantilla-informe-mensual.pptx` (ya tiene portada con logo, barra verde y título). Activar complemento de Claude.
@@ -841,12 +847,6 @@ gráficos, slide de análisis por cliente, slide de rendimiento
 de equipo, y slide de acciones pendientes para abril.
 
 Mantén el estilo visual de la plantilla (colores verdes Geinstal).
-```
-
-**Prompt adicional — Traducción a italiano:**
-
-```
-Necesito esta presentacion en italiano para visitar a unos clientes potenciales
 ```
 
 ---
