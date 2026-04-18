@@ -873,9 +873,9 @@ exactas.
 **B. Extracción en tabla — resumen ejecutivo**
 
 ```
-Inserta una página nueva después de la portada (con salto de página
-al final) dedicada íntegramente a un resumen ejecutivo del contrato,
-en formato tabla, con estas filas:
+Al final del documento, añade una sección titulada
+"Anexo · Resumen ejecutivo" con una tabla de 2 columnas
+(Concepto | Detalle) y estas filas:
 
 - Partes
 - Objeto
@@ -885,9 +885,7 @@ en formato tabla, con estas filas:
 - Penalizaciones máximas
 - Jurisdicción
 
-La tabla debe ocupar toda la página nueva sin desbordar. Tras la
-tabla, inserta otro salto de página para que el resto del contrato
-siga empezando en su página original.
+Rellena cada celda con la información extraída del contrato.
 ```
 
 > Muestra tabla generada en sitio + respeto del formato del documento.
