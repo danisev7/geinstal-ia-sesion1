@@ -1075,6 +1075,63 @@ Revisa el modelo completo y ejecuta estas verificaciones:
 4. Genera un resumen de salud del modelo con las conclusiones.
 ```
 
+### Prompt 4 — Forecasting y escenarios (base / optimista / pesimista)
+
+En el mismo modelo, sin re-explicarlo:
+
+```
+Añade una pestaña "Forecast" con proyección a 12 meses del
+margen neto por cliente y consolidado. Crea tres escenarios:
+
+- Base: mantiene los supuestos actuales
+- Optimista: +8% en ingresos, -5% en costes directos,
+  horas extra por urgencias reducidas a la mitad
+- Pesimista: -5% en ingresos, +10% en costes, horas extra x2
+
+Incluye una tabla de sensibilidad del margen neto consolidado
+variando la tasa de crecimiento (-10% a +15%) y el coste
+técnico (±20%). Marca en verde/rojo las combinaciones que
+generan margen positivo/negativo.
+```
+
+> Muestra forecasting + escenarios + tabla de sensibilidad + conditional formatting — todo en una sola pasada.
+
+### Prompt 5 — Explicar una fórmula existente (auditar modelo heredado)
+
+Hacer clic en una celda con una fórmula compleja (p. ej. la de margen neto consolidado) y preguntar:
+
+```
+Explícame en cristiano qué hace la fórmula de la celda
+seleccionada, qué supuestos arrastra desde otras pestañas,
+y si hay algún riesgo de que se rompa al modificar datos
+(referencias absolutas/relativas, dependencias ocultas).
+```
+
+> Caso real: abres un Excel que hizo otro compañero hace 2 años y no entiendes nada. En vez de trazar a mano, se lo preguntas.
+
+### Prompt 6 — Limpieza de datos sucios
+
+> Cambiar al Excel `ordenes-trabajo-q1-2026.xlsx`.
+
+```
+Audita la calidad de los datos de este Excel:
+
+1. Detecta y marca duplicados (misma orden, mismo cliente,
+   misma fecha) en una nueva columna.
+2. Homogeneiza la columna de fechas al formato dd/mm/aaaa —
+   ahora hay mezcla de formatos.
+3. Separa la columna "Cliente" en dos: "Grupo" (el holding)
+   y "Centro" (la sede/edificio concreto).
+4. Señala en una nueva pestaña "Anomalías" los registros con
+   valores atípicos (tiempos de respuesta extremos, técnicos
+   no reconocidos, campos vacíos en columnas obligatorias).
+
+Genera un informe corto al final con el estado de los datos
+antes y después de la limpieza.
+```
+
+> Muestra el caso 80/20 del día a día: datos llegando sucios de otros sistemas (ERP, GMAO, formularios) y Claude los deja listos para analizar.
+
 ---
 
 ## Cross-app: de Excel a PowerPoint automáticamente (slide 82, opcional)
