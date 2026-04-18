@@ -820,6 +820,44 @@ queden mejor respetando sus proporciones originales.
 Necesito esta presentacion en italiano para visitar a unos clientes potenciales
 ```
 
+### Demo Word (slide 79) — Contrato de mantenimiento con plantilla Geinstal
+
+Abrir `plantilla-word-geinstal.docx` (portada corporativa con logo + barra verde + footer, y a partir de la página 2 header con logo circular sin footer). Activar complemento de Claude para Word.
+
+**Prompt:**
+
+```
+Usando esta plantilla, redacta un contrato de mantenimiento integral
+entre Geinstal S.A. (mantenedor) y Centro Comercial Terrassa Parc
+(cliente) para todas las instalaciones del edificio (HVAC, electricidad,
+PCI, fontanería, CCTV).
+
+En la portada sustituye "TÍTULO DEL DOCUMENTO" por:
+"CONTRATO DE MANTENIMIENTO INTEGRAL DE INSTALACIONES" y añade
+debajo la fecha y la referencia GEI-MNT-2026-041.
+
+A partir de la página 2, desarrolla las cláusulas completas:
+
+1. Objeto y alcance del servicio
+2. Duración, prórrogas y preaviso de denuncia
+3. Precio, revisión anual (IPC) y forma de pago
+4. Obligaciones del mantenedor (SLA, tiempos de respuesta por
+   criticidad, reporting mensual)
+5. Obligaciones del cliente
+6. Garantías y responsabilidad civil
+7. Confidencialidad y protección de datos (RGPD)
+8. Penalizaciones por incumplimiento de SLA
+9. Causas de resolución
+10. Jurisdicción y ley aplicable (tribunales de Barcelona)
+11. Anexos: inventario de instalaciones, plan preventivo anual,
+    tarifa de materiales, listado de contactos 24/7
+
+Extensión objetivo: 8-12 páginas. Mantén el formato corporativo de
+la plantilla (logo en cada página, márgenes, tipografía).
+```
+
+---
+
 ### Demo PowerPoint (slide 80) — Informe mensual con plantilla Geinstal
 
 Abrir `plantilla-informe-mensual.pptx` (ya tiene portada con logo, barra verde y título). Activar complemento de Claude.
