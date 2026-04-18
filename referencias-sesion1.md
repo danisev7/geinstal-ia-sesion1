@@ -971,6 +971,42 @@ de equipo, y slide de acciones pendientes para abril.
 Mantén el estilo visual de la plantilla (colores verdes Geinstal).
 ```
 
+#### Demos adicionales sobre el informe mensual ya generado
+
+> Con el informe mensual abierto, ejecutar estas demos para ejercitar el resto de funcionalidades clave del plugin: edición puntual sin regenerar, generación de gráficos nativos y reestructuración del storyline.
+
+**F. Pinpoint edit — simplificar una slide concreta**
+
+```
+Simplifica la slide 3, está muy cargada. Deja solo los 3 datos
+más importantes y el resto muévelo a notas del orador.
+```
+
+> Muestra que Claude edita una única slide sin tocar el resto del deck ni romper el formato.
+
+**G. Bullets → gráfico nativo de PowerPoint**
+
+```
+En la slide de datos clave, convierte los bullets numéricos en
+un gráfico de barras nativo de PowerPoint comparando
+intervenciones preventivas vs correctivas, y otro gráfico de
+dona con el % de resolución en primera visita.
+```
+
+> Muestra gráficos editables (no imágenes). Clic derecho → "Editar datos" y están ahí.
+
+**H. Reestructurar el storyline**
+
+```
+Reordena las slides para contar la historia al revés:
+primero las acciones pendientes y recomendaciones para abril,
+luego los datos que las justifican (clientes con incidencias,
+rendimiento de técnicos) y al final un resumen ejecutivo de
+cierre. Ajusta la slide de agenda en consecuencia.
+```
+
+> Muestra inteligencia estructural: entiende qué slide hace qué papel y reorganiza manteniendo coherencia.
+
 ---
 
 ## Claude para Excel — Modelos financieros avanzados (slide 81)
