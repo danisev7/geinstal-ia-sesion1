@@ -902,6 +902,17 @@ referencias cruzadas afectadas.
 
 > Muestra los cambios como "inserciones y eliminaciones" visibles con el panel de revisión de Word.
 
+**C-bis. Detectar cambios hechos por otro usuario**
+
+> Con el control de cambios aún activado, edita manualmente la cláusula del alcance del servicio: sustituye `(b) Instalaciones eléctricas de baja tensión` por `(b) Instalaciones eléctricas de alta tensión`. Guarda el documento. Luego lanza a Claude:
+
+```
+¿Qué cambios se han hecho desde la última revisión? Agrúpalos
+por autor y dime cuáles son sustantivos y cuáles cosméticos.
+```
+
+> Muestra cómo Claude lee el XML de tracked changes con autor y fecha — exactamente el flujo cuando un cliente o abogado devuelve un contrato con redlines.
+
 **D. Traducción bilingüe de una cláusula sensible**
 
 ```
