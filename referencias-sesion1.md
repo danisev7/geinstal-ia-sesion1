@@ -856,6 +856,78 @@ Extensión objetivo: 8-12 páginas. Mantén el formato corporativo de
 la plantilla (logo en cada página, márgenes, tipografía).
 ```
 
+#### Demos adicionales sobre el contrato ya generado
+
+> Con el contrato abierto (`contrato-demo1.docx`), ejecutar estas demos en el mismo panel. Ejercitan las funcionalidades clave del complemento: lectura con citas, edición en sitio, control de cambios, tablas y revisión de calidad.
+
+**A. Q&A con citas clicables sobre el contrato**
+
+```
+¿Cuál es la duración del contrato y en qué condiciones se prorroga?
+¿Qué plazo de preaviso hay para denunciarlo? Cítame las cláusulas
+exactas.
+```
+
+> Muestra cómo Claude lee todo el documento y enlaza a cada cláusula citada (clic → salta a esa parte del Word).
+
+**B. Extracción en tabla — resumen ejecutivo**
+
+```
+Inserta al principio del documento, justo después del título, una
+tabla de resumen ejecutivo con estas filas:
+
+- Partes
+- Objeto
+- Duración y prórrogas
+- Precio y revisión
+- SLA (tiempos de respuesta por criticidad)
+- Penalizaciones máximas
+- Jurisdicción
+
+Que quepa en una sola página.
+```
+
+> Muestra tabla generada en sitio + respeto del formato del documento.
+
+**C. Edición con control de cambios activado**
+
+```
+Activa el control de cambios. Rebaja las penalizaciones por
+incumplimiento de SLA del 15% al 5% del importe anual, y ajusta
+proporcionalmente la cláusula 8. Además, reduce la duración
+inicial del contrato de 3 años a 2 años y actualiza todas las
+referencias cruzadas afectadas.
+```
+
+> Muestra los cambios como "inserciones y eliminaciones" visibles con el panel de revisión de Word.
+
+**D. Traducción bilingüe de una cláusula sensible**
+
+```
+Crea una tabla de dos columnas (español | inglés) al final del
+documento con la traducción de la cláusula 10 (Jurisdicción y ley
+aplicable). Mantén ambas columnas alineadas párrafo a párrafo.
+Título de la tabla: "Anexo bilingüe · Jurisdicción".
+```
+
+> Muestra traducción + tabla paralela + inserción al final.
+
+**E. Revisión de calidad y consistencia**
+
+```
+Revisa el documento entero y listame:
+
+1. Términos definidos usados con nombres distintos (p.ej. "el
+   Cliente" vs "la Propiedad" vs "Terrassa Parc").
+2. Referencias cruzadas rotas o inexistentes.
+3. Inconsistencias en fechas, cifras o plazos.
+4. Errores de ortografía, concordancia o tiempos verbales.
+
+Para cada hallazgo, indica la cláusula y propón la corrección.
+```
+
+> Muestra auditoría global del documento — útil para revisar contratos que llegan de un tercero.
+
 ---
 
 ### Demo PowerPoint (slide 80) — Informe mensual con plantilla Geinstal
