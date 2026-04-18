@@ -257,7 +257,7 @@ Ahora preséntame el mismo análisis como un dashboard visual
 interactivo con gráficos de los KPIs principales.
 ```
 
-### Claude para Excel — plugin y prompts para la demo (Bloque 4, slide 80)
+### Claude para Excel — plugin y prompts para la demo (Bloque 4, slide 81)
 
 Abrir el Excel `ordenes-trabajo-q1-2026.xlsx` con el complemento de Claude activo.
 
@@ -419,9 +419,9 @@ para no activar esa cláusula?
 
 ---
 
-## Mega Prompt 1 · Inteligencia competitiva — Análisis de competidores en Cataluña (slide 68)
+## Mega Prompt 1 · Inteligencia competitiva — Análisis de competidores en Cataluña (slide 69)
 
-> **Activar modo Investigación** (botón `+` → Investigación) antes de lanzar el prompt. Tarda 5-15 min. Lanzar al inicio y seguir con la lluvia de ideas (slide 69) mientras trabaja.
+> **Activar modo Investigación** (botón `+` → Investigación) antes de lanzar el prompt. Tarda 5-15 min. Lanzar al inicio y seguir con la lluvia de ideas (slide 70) mientras trabaja.
 
 ### Prompt
 
@@ -459,7 +459,7 @@ Después genera:
 
 ---
 
-## Mega Prompt 2 · Lluvia de ideas — 15 ideas de negocio en eficiencia energética (slide 69)
+## Mega Prompt 2 · Lluvia de ideas — 15 ideas de negocio en eficiencia energética (slide 70)
 
 > Se puede hacer en el mismo chat que la inteligencia competitiva, así Claude ya tiene el análisis de competidores como contexto.
 
@@ -518,7 +518,7 @@ agrupadas por categoría.
 
 ---
 
-## Mega Prompt 3 · Auditoría operativa — 5 entregables en un solo prompt (slide 70)
+## Mega Prompt 3 · Auditoría operativa — 5 entregables en un solo prompt (slide 71)
 
 > Usa el mismo Excel `ordenes-trabajo-q1-2026.xlsx` de la Palanca 5.
 
@@ -578,7 +578,7 @@ Reorganízame los 5 entregables como artifacts separados y navegables.
 
 ---
 
-## Mega Prompt 4 · RRHH — Screening inteligente de 5 candidatos (slide 71)
+## Mega Prompt 4 · RRHH — Screening inteligente de 5 candidatos (slide 72)
 
 ### Prompt
 
@@ -656,7 +656,7 @@ competencias técnicas).
 
 ---
 
-## Mega Prompt 5 · Base de conocimiento — Mapa de riesgos de Geinstal (slide 72)
+## Mega Prompt 5 · Base de conocimiento — Mapa de riesgos de Geinstal (slide 73)
 
 ### Prompt
 
@@ -714,7 +714,7 @@ Estructúrame los 3 entregables como artifacts separados navegables.
 
 ---
 
-## Gemini — Generación y edición de imágenes (slide 75)
+## Gemini — Generación y edición de imágenes (slide 76)
 
 | Recurso | Enlace |
 |---------|--------|
@@ -747,7 +747,7 @@ Genera una infografía visual que resuma los contenidos principales del document
 
 ---
 
-## NotebookLM — Analiza documentos y genera podcasts (slide 76)
+## NotebookLM — Analiza documentos y genera podcasts (slide 77)
 
 | Recurso | Enlace |
 |---------|--------|
@@ -781,7 +781,7 @@ documento y cómo se relacionan entre sí.
 
 ---
 
-## Claude en Office — Complementos para Word, PowerPoint y Excel (slides 77-81)
+## Claude en Office — Complementos para Word, PowerPoint y Excel (slides 78-81)
 
 ### Instalar los complementos
 
@@ -791,7 +791,7 @@ documento y cómo se relacionan entre sí.
 | Claude para PowerPoint | [support.claude.com — PowerPoint](https://support.claude.com/es/articles/13521390-usa-claude-para-powerpoint) |
 | Claude para Excel | [support.claude.com — Excel](https://support.claude.com/es/articles/12650343-usa-claude-para-excel) |
 
-### Demo PowerPoint (slide 79) — Presentación corporativa de Geinstal
+### Demo PowerPoint (slide 80) — Presentación corporativa de Geinstal
 
 Abrir PowerPoint con una presentación nueva. En la primera slide, pegar el logo de Geinstal. Activar el complemento de Claude.
 
@@ -820,7 +820,7 @@ queden mejor respetando sus proporciones originales.
 Necesito esta presentacion en italiano para visitar a unos clientes potenciales
 ```
 
-### Demo PowerPoint (slide 79) — Informe mensual con plantilla Geinstal
+### Demo PowerPoint (slide 80) — Informe mensual con plantilla Geinstal
 
 Abrir `plantilla-informe-mensual.pptx` (ya tiene portada con logo, barra verde y título). Activar complemento de Claude.
 
