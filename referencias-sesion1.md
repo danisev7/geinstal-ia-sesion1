@@ -167,7 +167,7 @@ Incluye:
 Céntrate en lo que esté abierto o próximo a abrirse.
 ```
 
-> **Antes y después:** lanzar primero el prompt tal cual (respuesta rápida desde lo que el modelo ya sabe). Después, activar el modo **Investigación** (botón `+` → Investigación) y lanzar el mismo prompt — Claude investigará en múltiples fuentes y devolverá un informe con citas verificables. La diferencia es notable.
+> **Antes y después:** lanzar primero el prompt tal cual. Después, activar el modo **Investigación** (botón `+` → Investigación) y lanzar el mismo prompt — esta vez devolverá un informe con citas verificables. Compara las dos respuestas.
 
 > **Importante:** la IA puede inventar datos. Las subvenciones y plazos que devuelva deben verificarse en las fuentes oficiales antes de actuar sobre ellas.
 
@@ -414,8 +414,6 @@ Ahora bien, entiendo perfectamente que eso no borra lo que ha
 pasado. ¿Qué necesita ver de nosotros en los próximos 30 días
 para no activar esa cláusula?
 ```
-
-> Después de esta respuesta, pedir **voluntarios de la audiencia** para continuar la negociación con Claude. La IA seguirá presionando.
 
 ---
 
@@ -829,7 +827,7 @@ la plantilla (logo en cada página, márgenes, tipografía).
 
 #### Demos adicionales sobre el contrato ya generado
 
-> Con el contrato abierto (`contrato-demo1.docx`), ejecutar estas demos en el mismo panel. Ejercitan las funcionalidades clave del complemento: lectura con citas, edición en sitio, control de cambios, tablas y revisión de calidad.
+> Con el contrato abierto (`contrato-demo1.docx`), ejecutar estas demos en el mismo panel.
 
 **A. Q&A con citas clicables sobre el contrato**
 
@@ -839,7 +837,7 @@ la plantilla (logo en cada página, márgenes, tipografía).
 exactas.
 ```
 
-> Muestra cómo Claude lee todo el documento y enlaza a cada cláusula citada (clic → salta a esa parte del Word).
+> Cada cita en la respuesta es clicable: lleva directamente a la cláusula del Word.
 
 **B. Extracción en tabla — resumen ejecutivo**
 
@@ -859,7 +857,7 @@ Al final del documento, añade una sección titulada
 Rellena cada celda con la información extraída del contrato.
 ```
 
-> Muestra tabla generada en sitio + respeto del formato del documento.
+> Verifica que la tabla queda insertada al final del documento y respeta la tipografía y márgenes de la plantilla.
 
 **C. Edición con control de cambios activado**
 
@@ -871,7 +869,7 @@ inicial del contrato de 3 años a 2 años y actualiza todas las
 referencias cruzadas afectadas.
 ```
 
-> Muestra los cambios como "inserciones y eliminaciones" visibles con el panel de revisión de Word.
+> Abre el panel de Revisión de Word para ver cada cambio marcado como inserción o eliminación.
 
 **C-bis. Detectar cambios hechos por otro usuario**
 
@@ -882,7 +880,7 @@ referencias cruzadas afectadas.
 por autor y dime cuáles son sustantivos y cuáles cosméticos.
 ```
 
-> Muestra cómo Claude lee el XML de tracked changes con autor y fecha — exactamente el flujo cuando un cliente o abogado devuelve un contrato con redlines.
+> La respuesta agrupa los cambios por autor y fecha: tu edición manual aparece distinguida de las que hizo Claude. Es el mismo flujo cuando un cliente o abogado devuelve un contrato con redlines.
 
 **D. Traducción bilingüe de una cláusula sensible**
 
@@ -893,7 +891,7 @@ aplicable). Mantén ambas columnas alineadas párrafo a párrafo.
 Título de la tabla: "Anexo bilingüe · Jurisdicción".
 ```
 
-> Muestra traducción + tabla paralela + inserción al final.
+> Verifica que la tabla bilingüe aparece al final del documento con los párrafos alineados español-inglés.
 
 **E. Revisión de calidad y consistencia**
 
@@ -909,7 +907,7 @@ Revisa el documento entero y listame:
 Para cada hallazgo, indica la cláusula y propón la corrección.
 ```
 
-> Muestra auditoría global del documento — útil para revisar contratos que llegan de un tercero.
+> Para cada hallazgo se indica la cláusula exacta y se propone una corrección — útil al revisar contratos recibidos de un tercero.
 
 ---
 
@@ -973,7 +971,7 @@ Mantén el estilo visual de la plantilla (colores verdes Geinstal).
 
 #### Demos adicionales sobre el informe mensual ya generado
 
-> Con el informe mensual abierto, ejecutar estas demos para ejercitar el resto de funcionalidades clave del plugin: edición puntual sin regenerar, generación de gráficos nativos y reestructuración del storyline.
+> Con el informe mensual abierto, ejecutar estas demos.
 
 **F. Pinpoint edit — simplificar una slide concreta**
 
@@ -982,7 +980,7 @@ Simplifica la slide 3, está muy cargada. Deja solo los 3 datos
 más importantes y el resto muévelo a notas del orador.
 ```
 
-> Muestra que Claude edita una única slide sin tocar el resto del deck ni romper el formato.
+> Solo debería modificarse la slide 3 — verifica que el resto del deck queda intacto y el formato se respeta.
 
 **G. Bullets → gráfico nativo de PowerPoint**
 
@@ -993,7 +991,7 @@ intervenciones preventivas vs correctivas, y otro gráfico de
 dona con el % de resolución en primera visita.
 ```
 
-> Muestra gráficos editables (no imágenes). Clic derecho → "Editar datos" y están ahí.
+> Para comprobar que son gráficos editables (no imágenes): clic derecho sobre el gráfico → "Editar datos".
 
 **H. Reestructurar el storyline**
 
@@ -1005,7 +1003,7 @@ rendimiento de técnicos) y al final un resumen ejecutivo de
 cierre. Ajusta la slide de agenda en consecuencia.
 ```
 
-> Muestra inteligencia estructural: entiende qué slide hace qué papel y reorganiza manteniendo coherencia.
+> Verifica que la slide de agenda se ha actualizado para reflejar el nuevo orden de las secciones.
 
 ---
 
@@ -1043,7 +1041,7 @@ Construye un modelo en dos pestañas:
 Usa fórmulas dinámicas que referencien la pestaña de supuestos.
 ```
 
-> No le dices cómo estructurar el Excel — le describes tu negocio y lo que necesitas. Claude decide la estructura.
+> Fíjate en que el prompt no especifica columnas ni fórmulas — Claude decide la estructura del modelo a partir de la descripción del negocio.
 
 ### Prompt 2 — Mejorar el modelo sin re-explicarlo
 
@@ -1062,7 +1060,7 @@ línea de margen neto ajustado por urgencias.
 Mantén todas las fórmulas y dependencias existentes intactas.
 ```
 
-> Claude entiende el contexto del modelo sin que lo re-expliques. SEAT al 15% de urgencias impacta mucho más que CCCB al 2%.
+> Sin re-explicar el modelo, Claude mantiene todas las dependencias. Compara cómo cambia el margen de SEAT (15% urgencias) frente a CCCB (2%).
 
 ### Prompt 3 — Verificar y auditar el modelo
 
@@ -1094,7 +1092,7 @@ técnico (±20%). Marca en verde/rojo las combinaciones que
 generan margen positivo/negativo.
 ```
 
-> Muestra forecasting + escenarios + tabla de sensibilidad + conditional formatting — todo en una sola pasada.
+> Comprueba en la pestaña Forecast los tres escenarios y la tabla de sensibilidad con celdas en verde/rojo según margen positivo o negativo.
 
 ### Prompt 5 — Explicar una fórmula existente (auditar modelo heredado)
 
@@ -1107,7 +1105,7 @@ y si hay algún riesgo de que se rompa al modificar datos
 (referencias absolutas/relativas, dependencias ocultas).
 ```
 
-> Caso real: abres un Excel que hizo otro compañero hace 2 años y no entiendes nada. En vez de trazar a mano, se lo preguntas.
+> Fíjate en cómo Claude traza la fórmula hasta sus inputs en otras pestañas y señala los riesgos de que se rompa al modificar datos.
 
 ### Prompt 6 — Limpieza de datos sucios
 
@@ -1130,7 +1128,7 @@ Genera un informe corto al final con el estado de los datos
 antes y después de la limpieza.
 ```
 
-> Muestra el caso 80/20 del día a día: datos llegando sucios de otros sistemas (ERP, GMAO, formularios) y Claude los deja listos para analizar.
+> Compara el informe de estado de los datos antes y después: verás cuántos duplicados, formatos incoherentes y anomalías ha limpiado.
 
 ---
 
@@ -1158,7 +1156,7 @@ informe mensual en esta presentación. Incluye:
 Mantén el estilo visual de la plantilla (colores verdes Geinstal).
 ```
 
-> El cierre perfecto: los mismos datos que han recorrido toda la sesión (Excel → análisis → dashboard → informe) llegan automáticamente a una presentación lista para la reunión de directores. Sin copiar, sin pegar, sin reformatear.
+> Ningún dato se ha copiado o pegado a mano: PowerPoint lee directamente del Excel abierto y genera las slides aplicando el estilo de la plantilla.
 
 ---
 
