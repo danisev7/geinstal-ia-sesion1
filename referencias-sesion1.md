@@ -1112,20 +1112,12 @@ y si hay algún riesgo de que se rompa al modificar datos
 > Cambiar al Excel `ordenes-trabajo-q1-2026.xlsx`.
 
 ```
-Audita la calidad de los datos de este Excel:
-
-1. Detecta y marca duplicados (misma orden, mismo cliente,
-   misma fecha) en una nueva columna.
-2. Homogeneiza la columna de fechas al formato dd/mm/aaaa —
-   ahora hay mezcla de formatos.
-3. Separa la columna "Cliente" en dos: "Grupo" (el holding)
-   y "Centro" (la sede/edificio concreto).
-4. Señala en una nueva pestaña "Anomalías" los registros con
-   valores atípicos (tiempos de respuesta extremos, técnicos
-   no reconocidos, campos vacíos en columnas obligatorias).
-
-Genera un informe corto al final con el estado de los datos
-antes y después de la limpieza.
+Audita y limpia esta hoja: marca duplicados, homogeneiza
+fechas a dd/mm/aaaa, separa Cliente en Grupo y Centro,
+normaliza técnicos contra la plantilla (M. Olivares,
+D. Rodríguez, D. Pérez, A. Fort, J. Sánchez), y crea una
+pestaña "Anomalías" con atípicos y huecos. Informe breve
+al final.
 ```
 
 > Compara el informe de estado de los datos antes y después: verás cuántos duplicados, formatos incoherentes y anomalías ha limpiado.
