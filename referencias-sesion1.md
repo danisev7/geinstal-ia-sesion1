@@ -257,27 +257,6 @@ Ahora preséntame el mismo análisis como un dashboard visual
 interactivo con gráficos de los KPIs principales.
 ```
 
-### Claude para Excel — plugin y prompts para la demo (Bloque 4, slide 81)
-
-Abrir el Excel `ordenes-trabajo-q1-2026.xlsx` con el complemento de Claude activo.
-
-**Prompt dentro de Excel:**
-
-```
-Analiza estos datos. Crea una columna nueva "Urgencia" que
-clasifique como "Crítica" si el tiempo de respuesta es >4h.
-
-Genera un gráfico de barras con incidencias correctivas por
-cliente y un gráfico de líneas con la evolución del tiempo
-de respuesta por mes en una nueva pestaña que se llame Análisis.
-```
-
-**Instalar el complemento:**
-
-Descargar plugin: [Claude for Excel — Microsoft Marketplace](https://marketplace.microsoft.com/es-es/product/saas/wa200009404?tab=overview)
-
-Más info: [Claude for Excel — Help Center](https://support.claude.com/en/articles/12650343-usa-claude-para-excel)
-
 ---
 
 ## Palanca 6 · Razonar y decidir — ¿Nos presentamos a esta licitación?
@@ -1007,13 +986,29 @@ cierre. Ajusta la slide de agenda en consecuencia.
 
 ---
 
-## Claude para Excel — Modelos financieros avanzados (slide 81)
+## Claude para Excel — demos del complemento (slide 81)
 
-> Seleccionar modelo **Opus** para estas demos (más avanzadas que el análisis básico).
+**Instalar el complemento:**
 
-### Prompt 1 — Construir un modelo de rentabilidad por cliente desde cero
+- Plugin: [Claude for Excel — Microsoft Marketplace](https://marketplace.microsoft.com/es-es/product/saas/wa200009404?tab=overview)
+- Doc oficial: [Claude for Excel — Help Center](https://support.claude.com/en/articles/12650343-usa-claude-para-excel)
 
-Abrir un Excel nuevo con el complemento de Claude activo.
+### Prompt 1 — Análisis básico: clasificar + gráficos automáticos
+
+Abrir el Excel `ordenes-trabajo-q1-2026.xlsx` con el complemento de Claude activo.
+
+```
+Analiza estos datos. Crea una columna nueva "Urgencia" que
+clasifique como "Crítica" si el tiempo de respuesta es >4h.
+
+Genera un gráfico de barras con incidencias correctivas por
+cliente y un gráfico de líneas con la evolución del tiempo
+de respuesta por mes en una nueva pestaña que se llame Análisis.
+```
+
+### Prompt 2 — Construir un modelo de rentabilidad por cliente desde cero
+
+> Cambiar a un Excel nuevo y seleccionar modelo **Opus** para los siguientes prompts (modelos más avanzados).
 
 ```
 Actúa como un experto en control de gestión del sector de
@@ -1043,7 +1038,7 @@ Usa fórmulas dinámicas que referencien la pestaña de supuestos.
 
 > Fíjate en que el prompt no especifica columnas ni fórmulas — Claude decide la estructura del modelo a partir de la descripción del negocio.
 
-### Prompt 2 — Mejorar el modelo sin re-explicarlo
+### Prompt 3 — Mejorar el modelo sin re-explicarlo
 
 En el mismo Excel, sin volver a describir el modelo:
 
@@ -1062,7 +1057,7 @@ Mantén todas las fórmulas y dependencias existentes intactas.
 
 > Sin re-explicar el modelo, Claude mantiene todas las dependencias. Compara cómo cambia el margen de SEAT (15% urgencias) frente a CCCB (2%).
 
-### Prompt 3 — Verificar y auditar el modelo
+### Prompt 4 — Verificar y auditar el modelo
 
 ```
 Revisa el modelo completo y ejecuta estas verificaciones:
@@ -1073,7 +1068,7 @@ Revisa el modelo completo y ejecuta estas verificaciones:
 4. Genera un resumen de salud del modelo con las conclusiones.
 ```
 
-### Prompt 4 — Forecasting y escenarios (base / optimista / pesimista)
+### Prompt 5 — Forecasting y escenarios (base / optimista / pesimista)
 
 En el mismo modelo, sin re-explicarlo:
 
@@ -1094,7 +1089,7 @@ generan margen positivo/negativo.
 
 > Comprueba en la pestaña Forecast los tres escenarios y la tabla de sensibilidad con celdas en verde/rojo según margen positivo o negativo.
 
-### Prompt 5 — Explicar una fórmula existente (auditar modelo heredado)
+### Prompt 6 — Explicar una fórmula existente (auditar modelo heredado)
 
 Hacer clic en una celda con una fórmula compleja (p. ej. la de margen neto consolidado) y preguntar:
 
@@ -1107,7 +1102,7 @@ y si hay algún riesgo de que se rompa al modificar datos
 
 > Fíjate en cómo Claude traza la fórmula hasta sus inputs en otras pestañas y señala los riesgos de que se rompa al modificar datos.
 
-### Prompt 6 — Limpieza de datos sucios
+### Prompt 7 — Limpieza de datos sucios
 
 > Cambiar al Excel `ordenes-trabajo-q1-2026.xlsx`.
 
