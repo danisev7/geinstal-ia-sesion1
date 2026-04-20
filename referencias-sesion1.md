@@ -13,7 +13,7 @@ Material complementario para los asistentes. Aquí encontraréis los enlaces y p
 
 ---
 
-## Prompting — la versión de bolsillo (ICR)
+## Prompting — la versión de bolsillo (ICR) · Slide 54
 
 ### Ejemplo ICR completo
 
@@ -73,7 +73,7 @@ ordenadas por prioridad.
 
 ---
 
-## Palanca 1 · Resumir — De un pliego de 80 páginas a un resumen ejecutivo
+## Palanca 1 · Resumir — De un pliego de 80 páginas a un resumen ejecutivo · Slide 57
 
 ### Pliego de ejemplo
 
@@ -115,7 +115,7 @@ Después evalúa si una empresa con este perfil cumple los requisitos:
 
 ---
 
-## Palanca 2 · Crear y editar — Email profesional a un cliente insatisfecho
+## Palanca 2 · Crear y editar — Email profesional a un cliente insatisfecho · Slide 58
 
 ### Prompt
 
@@ -149,7 +149,7 @@ de reunión: martes 22 de abril a las 10:00.
 
 ---
 
-## Palanca 3 · Investigar — Subvenciones de eficiencia energética en Cataluña
+## Palanca 3 · Investigar — Subvenciones de eficiencia energética en Cataluña · Slide 59
 
 ### Prompt
 
@@ -173,7 +173,7 @@ Céntrate en lo que esté abierto o próximo a abrirse.
 
 ---
 
-## Palanca 4 · Estructurar y transformar — Un informe técnico → 3 versiones
+## Palanca 4 · Estructurar y transformar — Un informe técnico → 3 versiones · Slide 60
 
 ### Informe técnico de ejemplo (pegar antes del prompt)
 
@@ -224,7 +224,7 @@ para poder editarlas independientemente.
 
 ---
 
-## Palanca 5 · Analizar información — Órdenes de trabajo Q1 2026
+## Palanca 5 · Analizar información — Órdenes de trabajo Q1 2026 · Slide 61
 
 ### Archivo de datos
 
@@ -259,7 +259,7 @@ interactivo con gráficos de los KPIs principales.
 
 ---
 
-## Palanca 6 · Razonar y decidir — ¿Nos presentamos a esta licitación?
+## Palanca 6 · Razonar y decidir — ¿Nos presentamos a esta licitación? · Slide 62
 
 > Esta demo se hace **dentro del mismo Project** de la Palanca 1. Claude ya tiene el pliego de IMDEA Alimentación cargado y las instrucciones del proyecto.
 
@@ -287,7 +287,7 @@ Analiza:
 
 ---
 
-## Palanca 7 · Automatizar — 5 emails de renovación personalizados (opcional)
+## Palanca 7 · Automatizar — 5 emails de renovación personalizados (opcional) · Slide 63
 
 ### Datos de los 5 contratos (pegar antes del prompt)
 
@@ -321,7 +321,7 @@ Ahora créame cada uno como un borrador en mi bandeja de Gmail.
 
 ---
 
-## Palanca 8 · Aprender — Plan de onboarding para un nuevo TGC (opcional)
+## Palanca 8 · Aprender — Plan de onboarding para un nuevo TGC (opcional) · Slide 64
 
 ### Prompt
 
@@ -354,7 +354,7 @@ visual por semanas.
 
 ---
 
-## Palanca 9 · Practicar — Simulación con un cliente que quiere rescindir (opcional)
+## Palanca 9 · Practicar — Simulación con un cliente que quiere rescindir (opcional) · Slide 65
 
 ### Prompt
 
@@ -396,9 +396,9 @@ para no activar esa cláusula?
 
 ---
 
-## Mega Prompt 1 · Inteligencia competitiva — Análisis de competidores en Cataluña (slide 69)
+## Mega Prompt 1 · Inteligencia competitiva — Análisis de competidores en Cataluña · Slide 68
 
-> **Activar modo Investigación** (botón `+` → Investigación) antes de lanzar el prompt. Tarda 5-15 min. Lanzar al inicio y seguir con la lluvia de ideas (slide 70) mientras trabaja.
+> **Activar modo Investigación** (botón `+` → Investigación) antes de lanzar el prompt. Tarda 5-15 min. Lanzar al inicio y seguir con la lluvia de ideas (Slide 69) mientras trabaja.
 
 ### Prompt
 
@@ -436,7 +436,7 @@ Después genera:
 
 ---
 
-## Mega Prompt 2 · Lluvia de ideas — 15 ideas de negocio en eficiencia energética (slide 70)
+## Mega Prompt 2 · Lluvia de ideas — 15 ideas de negocio en eficiencia energética · Slide 69
 
 > Se puede hacer en el mismo chat que la inteligencia competitiva, así Claude ya tiene el análisis de competidores como contexto.
 
@@ -495,7 +495,7 @@ agrupadas por categoría.
 
 ---
 
-## Mega Prompt 3 · Auditoría operativa — 5 entregables en un solo prompt (slide 71)
+## Mega Prompt 3 · Auditoría operativa — 5 entregables en un solo prompt · Slide 70
 
 > Usa el mismo Excel `ordenes-trabajo-q1-2026.xlsx` de la Palanca 5.
 
@@ -555,7 +555,7 @@ Reorganízame los 5 entregables como artifacts separados y navegables.
 
 ---
 
-## Mega Prompt 4 · RRHH — Screening inteligente de 5 candidatos (slide 72)
+## Mega Prompt 4 · RRHH — Screening inteligente de 5 candidatos · Slide 71
 
 ### Prompt
 
@@ -633,7 +633,7 @@ competencias técnicas).
 
 ---
 
-## Mega Prompt 5 · Base de conocimiento — Mapa de riesgos de Geinstal (slide 73)
+## Mega Prompt 5 · Base de conocimiento — Mapa de riesgos de Geinstal · Slide 72
 
 ### Prompt
 
@@ -691,7 +691,7 @@ Estructúrame los 3 entregables como artifacts separados navegables.
 
 ---
 
-## Gemini — Generación y edición de imágenes (slide 76)
+## Gemini — Generación y edición de imágenes · Slide 75
 
 | Recurso | Enlace |
 |---------|--------|
@@ -724,7 +724,7 @@ Genera una infografía visual que resuma los contenidos principales del document
 
 ---
 
-## NotebookLM — Analiza documentos y genera podcasts (slide 77)
+## NotebookLM — Analiza documentos y genera podcasts · Slide 76
 
 | Recurso | Enlace |
 |---------|--------|
@@ -758,7 +758,7 @@ documento y cómo se relacionan entre sí.
 
 ---
 
-## Claude en Office — Complementos para Word, PowerPoint y Excel (slides 78-81)
+## Claude en Office — Complementos para Word, PowerPoint y Excel · Slides 78-81
 
 ### Instalar los complementos
 
@@ -768,7 +768,7 @@ documento y cómo se relacionan entre sí.
 | Claude para PowerPoint | [support.claude.com — PowerPoint](https://support.claude.com/es/articles/13521390-usa-claude-para-powerpoint) |
 | Claude para Excel | [support.claude.com — Excel](https://support.claude.com/es/articles/12650343-usa-claude-para-excel) |
 
-### Demo Word (slide 79) — Contrato de mantenimiento con plantilla Geinstal
+### Demo Word · Slide 78 — Contrato de mantenimiento con plantilla Geinstal
 
 Abrir `plantilla-word-geinstal.docx` (portada corporativa con logo + barra verde + footer, y a partir de la página 2 header con logo circular sin footer). Activar complemento de Claude para Word.
 
@@ -890,7 +890,7 @@ Para cada hallazgo, indica la cláusula y propón la corrección.
 
 ---
 
-### Demo PowerPoint (slide 80) — Presentación corporativa de Geinstal
+### Demo PowerPoint · Slide 79 — Presentación corporativa de Geinstal
 
 Abrir PowerPoint con una presentación nueva. En la primera slide, pegar el logo de Geinstal. Activar el complemento de Claude.
 
@@ -919,7 +919,7 @@ queden mejor respetando sus proporciones originales.
 Necesito esta presentacion en italiano para visitar a unos clientes potenciales
 ```
 
-### Demo PowerPoint (slide 80) — Informe mensual con plantilla Geinstal
+### Demo PowerPoint · Slide 79 — Informe mensual con plantilla Geinstal
 
 Abrir `plantilla-informe-mensual.pptx` (ya tiene portada con logo, barra verde y título). Activar complemento de Claude.
 
@@ -945,7 +945,7 @@ Incluye: slide de resumen ejecutivo, slide de datos clave con
 gráficos, slide de análisis por cliente, slide de rendimiento
 de equipo, y slide de acciones pendientes para abril.
 
-Mantén el estilo visual de la plantilla (colores verdes Geinstal).
+Las slides de datos deben ser como la slide Nº2, las otras slides son para la portada y para el cierre
 ```
 
 #### Demos adicionales sobre el informe mensual ya generado
@@ -986,7 +986,7 @@ cierre. Ajusta la slide de agenda en consecuencia.
 
 ---
 
-## Claude para Excel — demos del complemento (slide 81)
+## Claude para Excel — demos del complemento · Slide 80
 
 **Instalar el complemento:**
 
@@ -1119,7 +1119,7 @@ al final.
 
 ---
 
-## Cross-app: de Excel a PowerPoint automáticamente (slide 82, opcional)
+## Cross-app: de Excel a PowerPoint automáticamente · Slide 81
 
 Tener abiertos a la vez:
 - **Excel**: `ordenes-trabajo-q1-2026.xlsx` (con la pestaña "Análisis" generada en la demo anterior)
@@ -1147,7 +1147,7 @@ Mantén el estilo visual de la plantilla (colores verdes Geinstal).
 
 ---
 
-## Deberes post-sesión
+## Deberes post-sesión · Slide 84
 
 1. **Date de alta en Claude** con la licencia que te facilite Geinstal: [claude.ai](https://claude.ai)
 2. **Material de la sesión** — presentación y prompts de referencia:
