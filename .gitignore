@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Microsoft Office / LibreOffice — archivos temporales y de bloqueo
+~$*.xlsx
+~$*.docx
+~$*.pptx
+.~lock.*
